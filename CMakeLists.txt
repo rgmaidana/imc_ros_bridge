@@ -45,25 +45,48 @@ find_package(Boost REQUIRED COMPONENTS system thread)
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  PlanControl.msg
-  PlanControlState.msg
-  VehicleState.msg
-  EstimatedState.msg
-  RemoteState.msg
-  SonarData.msg
+  Abort.msg
+  AcousticOperation.msg
+  Chlorophyll.msg
+  Controller.msg
+  Depth.msg
   DesiredHeading.msg
   DesiredHeadingRate.msg
   DesiredPitch.msg
   DesiredRoll.msg
   DesiredSpeed.msg
   DesiredZ.msg
+  EntityList.msg
+  EntityState.msg
+  EstimatedState.msg
+  FollowReference.msg
+  FollowRefState.msg
+  Heartbeat.msg
+  IridiumMsgTx.msg
+  IridiumTxStatus.msg
+  Lauv.msg
+  LogBookEntry.msg
+  Maneuver.msg
+  PathControlState.msg
+  PlanControl.msg
+  PlanControlState.msg
   PlanDB.msg
   PlanSpecification.msg
   PlanDBInformation.msg
   PlanDBState.msg
   PlanManeuver.msg
-  Maneuver.msg
   PolygonVertex.msg
+  Reference.msg
+  RemoteState.msg
+  ReportControl.msg
+  Salinity.msg
+  Sms.msg
+  SonarData.msg
+  Temperature.msg
+  UsblPositionExtended.msg
+  VehicleMedium.msg
+  VehicleState.msg
+  Waypoint.msg
 )
 
 ## Generate services in the 'srv' folder
